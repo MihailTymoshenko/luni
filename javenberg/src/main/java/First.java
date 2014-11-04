@@ -4,4 +4,5 @@
  * Time: 15:01
  */
 public class First {
+    public static final String TEST="TEST23";
 }
