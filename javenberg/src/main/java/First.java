@@ -4,6 +4,7 @@
  * Time: 15:01
  */
 public class First {
+    public static final String TEST="test";
     public static void main(String[] args) {
         System.out.println();
 
