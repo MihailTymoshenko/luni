@@ -5,7 +5,6 @@
  */
 public class First {
     public static final String TEST="TEST23";
-    public static final String TEST="test";
     public static void main(String[] args) {
         System.out.println();
 
