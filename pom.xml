@@ -4,9 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Misha</groupId>
-    <artifactId>Pesnya</artifactId>
+    <groupId>ua.misha</groupId>
+    <artifactId>parent-module</artifactId>
+    <packaging>pom</packaging>
     <version>LUN-SNAPSHOT</version>
+    <modules>
+        <module>javenberg</module>
+    </modules>
 
-    
+
 </project>
