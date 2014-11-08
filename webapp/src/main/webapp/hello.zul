@@ -1,0 +1,34 @@
+<window xmlns="http://www.zkoss.org/2005/zul"
+        height="100%"
+        width="100%"
+        apply="ua.misha.LoginComposer">
+    <div height="100%" align="center">
+        <vbox align="center" height="100%">
+            <grid width="300px" height="100%">
+                <columns>
+                    <column width="40%"/>
+                    <column width="60%"/>
+                </columns>
+                <rows>
+                    <row>
+                        <cell>
+                            <label value="Login"/>
+                        </cell>
+                        <cell>
+                            <textbox id="loginTextbox"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <label value="Password"/>
+                        </cell>
+                        <cell>
+                            <textbox type="password" id="passwordTextbox"/>
+                        </cell>
+                    </row>
+                </rows>
+            </grid>
+            <button id="loginButton" label="Login"/>
+        </vbox>
+    </div>
+</window>
